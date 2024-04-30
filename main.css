@@ -45,7 +45,7 @@ header {
   }
   .about {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 115px;
     padding-top: 115px;
@@ -70,6 +70,7 @@ header {
 
   .about_info {
     max-width: 550px;
+    white-space: normal;
   }
   .about {
     background: url('img/back.png') no-repeat;
